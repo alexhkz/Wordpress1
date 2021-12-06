@@ -11,7 +11,7 @@
 
 .promo {
   padding: 39px 0px 62px 0;
-  height: 800px;
+  height: 900px;
   background: url('../img/bg/main_bg.png') center center/cover no-repeat;
 }
 
@@ -34,10 +34,12 @@
 
 h1 {
   margin-top: 53px;
+  line-height: 48px;
 }
 
 h2.title {
   margin-top: 30px;
+  line-height: 48px;
 }
 
 .title {
@@ -77,4 +79,98 @@ h2.title {
   color: #f9bf3b;
   font-family: Roboto-Bold;
   font-weight: 700;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 73px;
+  width: 313px;
+  height: 72px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto-Condensed;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.more {
+  margin-top: 73px;
+}
+
+.more .more_text {
+  color: #ffffff;
+  font-family: 'Roboto-Thin';
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.more .more_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.waiting {
+  height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.waiting .waiting_divider {
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+  margin-top: 17px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_descr {
+  margin-top: 33px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
 }
