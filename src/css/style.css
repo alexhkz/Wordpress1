@@ -126,7 +126,8 @@ h2.title {
   padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header,
+.finish .finish_header {
   color: #252525;
   font-family: Roboto;
   font-size: 30px;
@@ -135,7 +136,12 @@ h2.title {
   text-align: center;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+  color: #ffffff;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
   width: 217px;
   height: 4px;
   background-color: #f9bf3b;
@@ -209,4 +215,159 @@ h2.title {
   top: -54px;
   left: -240px;
   z-index: -1;
+}
+
+.finish {
+  min-height: 447px;
+  padding: 86px 0 97px 0;
+  background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+  width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 25px;
+  text-align: center;
+  color: #efefef;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.gift {
+  height: 628px;
+  background-color: #efefef;
+  padding: 88px 0 88px 0;
+}
+
+.present .present_img {
+  display: block;
+  margin: 0 auto;
+  height: 154;
+  width: 174;
+}
+
+.gift .gift_text {
+  margin-top: 45px;
+  width: 1161px;
+  height: 113px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #252525;
+}
+
+.gift .gift_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 51px;
+  width: 313px;
+  height: 72px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto-Condensed;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.webinar {
+  min-height: 512px;
+  background-color: #ffffff;
+  padding: 81px 0 52px 0;
+}
+
+.webinar .webinar_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar .webinar_descr {
+  margin-top: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+
+.webinar .webinar_header {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.webinar .webinar_subheader {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.footer {
+  min-height: 167px;
+  background-color: #000000;
+  padding: 57px 0 69px 0;
+}
+
+.footer .info_links {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.underlined {
+  text-decoration: underline;
 }
